@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashlee Nicole G. Pelayo - Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #eaeaea;
+            color: #5e5343;
+        }
+        .navbar {
+            background-color: #65453c; z-index: 10; position: fixed; top: 0; width: 100%;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .home-section {
+            background-color: #eaeaea;
+            color: #333;
+            padding: 120px 0;
+            text-align: left;
+            position: relative;
+            display: flex;
+            align-items: flex-start; margin-top: 20px;
+            justify-content: center;
+            padding-left: 0;
+        }
+        .home-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .home-text h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #5e5343;
+            letter-spacing: 1px;
+        }
+        .home-text h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #5e5343;
+        }
+        .home-text p {
+            font-size: 1.1rem;
+            color: #5e5343;
+            max-width: 600px;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+        .profile-img {
+            width: 600px; height: 400px;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .about-img {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 10px;
+        }
+        .about-box {
+            background-color: #fff4e6;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 1140px;
+            margin: auto;
+        }
+        footer {
+            background-color: #24252a;
+            color: #ffffff;
+            padding: 12px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+      .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: #65453c;
+      border-radius: 50%;
+      padding: 20px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+      width: 8%;
+  }
+  .project-img {
+  width: 380px;
+  height: 220px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">ASHLEE'S PORTFOLIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <img src="Portfolio.jpg" alt="Profile Picture" class="profile-img">
+        <div class="home-text" style="margin-top: 100px;">
+            <h1>Ashlee Nicole<br>G. Pelayo</h1>
+            <h3 style="font-size: 2rem; font-weight: 600; color: #5e5343; letter-spacing: 1px; text-transform: uppercase;">Computer Science Student</h3>
+            <p style="font-size: 1.2rem; font-weight: 400; color: #5e5343; line-height: 1.8; max-width: 600px;">I am a 3rd year College student taking Computer Science in Polytechnic University of the Philippines</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="py-5" style="background-color: #fdf7f0; color: #5e5343;">
+    <div class="about-box">
+        <div class="row align-items-center">
+            <div class="col-md-6 d-flex justify-content-center flex-wrap">
+                <img src="museum.png" alt="museum" class="about-img">
+                <img src="pup.jpg" alt="pup" class="about-img">
+            </div>
+            <div class="col-md-6 pr-md-5">
+                <div style="padding-left: 10px;">
+                    <h2 style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 4rem; margin-bottom: 20px;">About Me</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        I love exploring new things, especially anything creative or thought-provoking.
+                        Whether it’s making art, diving into sci-fi and horror movies, or just hanging out
+                        and making great memories, I enjoy experiences that challenge my imagination.
+                        I’m naturally curious and always eager to learn, but I also value my solitude—
+                        it gives me the peace and freedom to think and create.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="py-5" style="background-color: #eaeaea; color: #5e5343;">
+    <div class="container">
+      <h2 class="text-center mb-5" style="font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 700;">Skills</h2>
+  
+      <div class="skills-grid">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">HTML & CSS</h5>
+            <p class="card-text">Proficient in structuring and styling web pages with semantic HTML and responsive CSS using Bootstrap.</p>
+          </div>
+        </div>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">Skilled in adding interactivity to web pages and understanding basic programming concepts.</p>
+          </div>
+        </div>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">C/C++</h5>
+            <p class="card-text">Experience with structured programming and problem solving using C and C++ languages.</p>
+          </div>
+        </div>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">GDScript</h5>
+            <p class="card-text">Experience with GDScript for developing 2D and 3D games in the Godot engine.</p>
+          </div>
+        </div>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Familiar with Python for scripting, automation, and data handling tasks.</p>
+          </div>
+        </div>
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">UI/UX Design</h5>
+            <p class="card-text">Basic knowledge of user interface and user experience design principles for web and app projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CSS Grid Styles -->
+  <style>
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  </style>
+  
+
+
+<!-- Projects Section -->
+<section id="projects" class="pt-3 pb-5" style="background-color: #fdf7f0; color: #5e5343;">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 700;">Projects</h2>
+        
+<div id="projectCardCarousel" class="carousel slide mt-5" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card mx-auto" style="max-width: 700px;">
+        <img src="pomo.png" class="card-img-top project-img mt-4" alt="pomodoro app">
+        <div class="card-body text-center">
+          <h5 class="card-title">UI/UX for Pomodoro app</h5>
+          <p class="card-text">A clean, distraction-free interface designed for a Pomodoro productivity app, focusing on intuitive timer controls, session tracking, and calming visual aesthetics to enhance user focus and workflow.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card mx-auto" style="max-width: 700px;">
+        <img src="Shiba.png" class="card-img-top project-img mt-4" alt="Shibachi">
+        <div class="card-body text-center">
+          <h5 class="card-title">Cooking Game using GDScript</h5>
+          <p class="card-text">A fun and interactive 2D cooking game developed in Godot, where players manage a kitchen, prepare dishes under time pressure, and serve customers with increasing difficulty.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card mx-auto" style="max-width: 700px;">
+        <img src="Calcu.png" class="card-img-top project-img mt-4" alt="Calculator">
+        <div class="card-body text-center">
+          <h5 class="card-title">Python Calculator</h5>
+          <p class="card-text">A user-friendly desktop calculator application created using Python’s Tkinter module, performing basic math operations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#projectCardCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#projectCardCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5" style="background-color: #eaeaea; color: #5e5343;">
+  <div class="container">
+    <h2 class="mb-5 pl-5" style="font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 700; text-align: left;">Contact Me</h2>
+    <div class="row justify-content-center align-items-start mt-4">
+      <div class="col-md-6 pr-5">
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+  <div class="col-md-5">
+    <div class="pl-md-4 mt-5 pt-5 pt-md-5" style="padding-top: 160px;">
+        <h4 style="font-family: 'Playfair Display', serif; font-weight: 600; font-size: 1.8rem; margin-bottom: 20px;">Other Ways to Reach Me:</h4>
+      <ul class="list-unstyled" style="font-size: 1.1rem; line-height: 2;">
+        <li><strong>Facebook:</strong> Ashlee Nicole G. Pelayo</li>
+        <li><strong>Instagram:</strong> @Ashri_chan</li>
+        <li><strong>Phone:</strong> (+63) 09604179039</li>
+        <li><strong>Email:</strong> ashleenicolegarcia04@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2025 Ashlee Nicole G. Pelayo
+</footer>
+</body>
+</html>
